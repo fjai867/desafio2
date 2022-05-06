@@ -1,0 +1,91 @@
+*{
+    background-color: black;
+}
+
+p{
+    color:hsl(193, 38%, 86%);
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    
+}
+h4{
+    text-align: center;
+    color:hsl(150, 100%, 66%);
+    background-color: transparent;
+    
+    
+
+}
+
+.container{
+    width: 1440px;
+    height: 720px;
+    background-color:hsl(218, 23%, 16%);
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+    
+}
+
+.container2{
+    width: 540px;
+    height: 370px;
+    background-color:hsl(217, 19%, 24%);
+    border-radius: 25px;
+    position: relative;
+    
+}
+
+.trans{
+    background-color:hsl(217, 19%, 24%);
+}
+
+.btn{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color:hsl(150, 100%, 66%);
+    position:absolute;
+    cursor: pointer;
+    left: 240px;
+    top: 325px;
+    border: none;
+}
+
+.btn:hover{
+    background-color:hsl(110, 92%, 64%) ;
+}
+
+
+.divider{
+    margin:auto;
+    
+    background-color:hsl(217, 19%, 24%);
+}
+
+.css-button-shadow-border--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #57cc99;
+  }
+  .css-button-shadow-border--green:hover {
+    background-color: #80ed99;
+  }
+  .css-button-shadow-border--green:active {
+    top: 2px;
+  }
