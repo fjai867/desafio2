@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    background-color:hsl(0, 0%, 4%);
 }
 
 p{
@@ -20,8 +20,8 @@ h3{
 }
 
 .container{
-    width: 1440px;
-    height: 720px;
+    width: 850px;
+    height: 600px;
     background-color:hsl(218, 23%, 16%);
     margin:auto;
     display: flex;
@@ -36,11 +36,17 @@ h3{
     width: 540px;
     height: 370px;
     margin:auto;
+    padding-top: 1px;
     background-color:hsl(217, 19%, 24%);
     border-radius: 25px;
     position: relative;
     
 }
+
+.container2 div {
+	vertical-align:middle;
+}
+
 
 .trans{
     background-color:hsl(217, 19%, 24%);
@@ -62,7 +68,7 @@ h3{
 
 .btn:hover{
     background-color:hsl(110, 92%, 64%) ;
-    box-shadow: 0 0 20px #4f9;
+    box-shadow: 0 0 30px #4f9;
     
     
     
