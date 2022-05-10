@@ -33,8 +33,8 @@ h3{
 }
 
 .container2{
-    width: 540px;
-    height: 370px;
+    width: 500px;
+    height: 300px;
     margin:auto;
     padding-top: 1px;
     background-color:hsl(217, 19%, 24%);
@@ -53,21 +53,28 @@ h3{
     
 }
 
+.trans2{
+    
+    background-color:hsl(150, 100%, 66%);
+    
+    
+}
+
 .btn{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     background-color:hsl(150, 100%, 66%);
     position:absolute;
     cursor: pointer;
-    left: 240px;
-    top: 325px;
+    left: 220px;
+    top: 267px;
     border: none;
     display: inline-block;
 }
 
 .btn:hover{
-    background-color:hsl(110, 92%, 64%) ;
+    
     box-shadow: 0 0 30px #4f9;
     
     
@@ -80,7 +87,7 @@ h3{
     
     background-color:hsl(217, 19%, 24%);
     
-    padding-left: 25px;
+    padding-left: 15px;
     margin-top: 30px;
 
 }
